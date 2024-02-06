@@ -8,11 +8,49 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
+/* header */
 header {
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 2px 20px;
 }
 h1 {
     display: inline;
     font-size: 40px;
     vertical-align: top;
 }
+/* main */
+main {
+    max-width: 1200px;
+    margin: 40px auto 5px auto;
+    border-radius: 5px;
+}
+.button-container {    
+    padding: 15px 0px 5px 50px;
+    border-bottom: #F7F8F9 solid 2px;
+}
+.button {
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+.button-white {
+    color: #DDE1E3;
+    border: #DDE1E3 solid 1px;
+}
+/* text utility */
+.text-white {
+    color: white;
+}
+/* background utility */
+.bg-white {
+    background-color: white;
+}
+.bg-grey {
+    background-color: #F7F8F9;
+}
+.bg-blue {
+    background-color: #47ACF2;
+}
+/* sizes utility */
