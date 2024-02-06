@@ -39,9 +39,15 @@ main {
     color: #DDE1E3;
     border: #DDE1E3 solid 1px;
 }
+.list-container {
+    padding: 0px 0px 40px 70px;
+}
 /* text utility */
 .text-white {
     color: white;
+}
+.text-darkgrey {
+    color: #434851;
 }
 /* background utility */
 .bg-white {
@@ -54,3 +60,12 @@ main {
     background-color: #47ACF2;
 }
 /* sizes utility */
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
